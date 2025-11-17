@@ -112,7 +112,7 @@ Here are links to key resources if you want to try this project yourself:
 
 You can find the full Python code for collecting and cleaning this dataset here:
 
-* **GitHub Repo:** *Add repo link here*
+* **GitHub Repo:** [https://github.com/dmbinns/travel_dataset](https://github.com/dmbinns/travel_dataset)
 
 # Conclusion
 
