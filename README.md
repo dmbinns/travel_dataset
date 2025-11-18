@@ -17,11 +17,11 @@ I wanted to investigate how restaurant ratings, review counts, and price levels 
 ## Repository contents
 
 
-- `yelp_scraper.py` — Main script to query the Yelp Fusion API and save results as `data/yelp_restaurants.csv`.
-- `eda.py` — EDA script that loads the CSV, computes summary statistics, and generates plots into the `images/` folder.
-- `data/` — (optional) place to store the final CSV. Do **not** include your private API keys here.
+- `yelp_restaurants.py` — Main script to query the Yelp Fusion API and save results as `latin_american_restaurants.csv`.
+- `restaurants_eda.py` — EDA script that loads the CSV, computes summary statistics, and generates plots.
+- `latin_american_restaurants.csv` — Final csv of dataset.
 - `images/` — generated EDA plots (committed after generation).
-- `blog_post.qmd` — Quarto blog post that summarizes the project and links to code and dataset.
+- `data_acq_blog.qmd` — Quarto blog post that summarizes the project and links to code and dataset.
 - `requirements.txt` — Python package list (see below).
 
 
@@ -36,3 +36,4 @@ python -m venv venv
 source venv/bin/activate # Mac/Linux
 venv\Scripts\activate # Windows PowerShell
 pip install -r requirements.txt
+
